@@ -13,7 +13,7 @@ from nltk.tokenize import word_tokenize
 import streamlit as st
 
 
-df= pd.read_csv("movies.csv")
+df= pd.read_csv("MovieRecommendation_v2/movies.csv")
 
 required_columns =["genres","keywords", "title", "overview"]
 df= df[required_columns]
